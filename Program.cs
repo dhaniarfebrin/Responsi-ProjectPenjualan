@@ -87,9 +87,9 @@ namespace ProjectPenjualan
 
             Console.WriteLine("Data Penjualan");
 
-            foreach (Penjualan pnj in daftarPenjualan)
+            foreach (Penjualan penj in daftarPenjualan)
             {
-                Console.WriteLine("{0}. {1}, {2}, {3}, {4}, {5}", i, pnj.Nota, pnj.Tanggal, pnj.Cust, pnj.Jenis, pnj.TotalNota);
+                Console.WriteLine("{0}. {1}, {2}, {3}, {4}, {5}", i, penj.Nota, penj.Tanggal, penj.Cust, penj.Jenis, penj.TotalNota);
                 i++;
             }
 
